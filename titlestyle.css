@@ -1,0 +1,70 @@
+body {
+	background-color:#2A0345;
+	font-family: Lucida Console, Courier New, monospace;
+}
+
+#Title {
+	background-image: url("Media/Title2.png");
+	height: 127px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#Header {
+	color: white;
+	margin-left: 100px;
+}
+
+.flex-container {
+	width: 1200px;
+	height: 355px;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: row;
+	background-color: #2a0345;
+	align-items: center;
+	max-width: 100%;
+}
+
+.Text {
+	color: #8BC600;
+	border: 5px solid #8BC600;
+	flex-basis: 600px;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+.Image {
+	width: 550px;
+	margin-left: 25px;
+}
+
+img {
+	width: 100%;
+}
+
+.button-group .button {
+	background-color: #2A0345;
+	border: 3px solid #d3ab00;
+	color: #d3ab00;
+	font-size: 28px;
+	font-family: inherit;
+	padding: 20px 35px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	float: center;
+	border-radius: 12px;
+	margin-left: 300px;
+	margin-right: 25px;
+	margin-top: 25px;
+	width: 50%;
+}
+
+.button:hover {
+	background-color: #56068d;
+	color: #d3ab00;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="comstyle.css" type="text/css"/>
+		<title>The Castle</title>
+	</head>
+	<body>
+		<div id="Title"></div>
+		<h1 id="Header">Stairway Landing</h1>
+		<div class="flex-container">
+			<div class="Text">
+				<p>You stop on the stairwell landing. Suddenly, out of nowhere you can hear music playing, it is faint but 
+				noticeable. Looking around the landing space you see no gaps in the stone, and no natural light is even 
+				peeping through the walls of the stairway. You begin to listen closely; it sounds like a woodwind 
+				instrument like a Shawm. This noise makes you feel rather unsettled, because there does not seem to be any 
+				obvious reason or its origin in front of you. No one seems to be close by the top of the stairs or the 
+				surrounding hallway.
+				</p>
+			</div>
+			<div class="Image">
+				<img src="Media/Landing.png"/>
+			</div>
+		</div>
+		<div class="button-group">
+			<a href="pit-prison.html"><button class="button">Go Forward</button></a>
+			<a href="hallway.html"><button class="button" onclick="clickCounter()">Go Back</button></a>
+			<!-- Code taken from Web Tech Lab 10 Sound and Vision by Dr Simon Wells -->
+			<!-- No autoplay, not a feature I want to implement. Play, Pause and Volume all present -->
+			<!-- No JavaScript needed for player, basic HTML with CSS id for placement just right -->
+			<audio id="strange_Music" controls>
+				<source src="Media/flute.wav" type="audio/wav">
+				Your brower does not support the audio element.
+			</audio>
+		</div>
+	</body>
+</html>

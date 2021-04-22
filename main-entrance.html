@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="comstyle.css" type="text/css"/>
+		<script src="counter.js"></script>
+		<title>The Castle</title>
+	</head>
+	<body>
+	<body onload="clickCounter()";>
+		<div id="Title"></div>
+		<h1 id="Header">Main Entrance</h1>
+		<div class="flex-container">
+			<div class="Text">
+				<p>As you approach the main entrance, there is an opening into grass and a sea view, but it is shrouded
+				in a darkness that seems darker than the night itself. This part of the fortress seems to be completely 
+				intact inside, which means no light is seeping in from holes in the roof or walls. It only takes a few 
+				seconds to walk through the entrance and back into the light, but something about that darkness makes you 
+				feel uneasy. Now, you stand within the Inner Court. You can head straight on towards a well and 
+				the sea view, go left into the remains of Douglas Tower or you can go right, which leads to some spiral 
+				stairs within the East Tower.
+				</p>
+			</div>
+			<div class="Image">
+				<img src="Media/Passage.png"/>
+			</div>
+		</div>
+		<div class="button-group">
+			<a href="hallway.html"><button class="button" onclick="clickCounter()">Go Left</button></a>
+			<a href="the-well.html"><button class="button" onclick="clickCounter()">Go Straight</button></a>
+			<a href="east-tower.html"><button class="button" onclick="clickCounter()">Go Right</button></a>
+			<a href="ending2.html"><button class="button" id="invisible" onclick="clickCounter()">Head out</button></a>
+		</div>
+	</body>
+</html>
